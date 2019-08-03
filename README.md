@@ -1,1 +1,1 @@
-# owlv-cron
+https://owlv-cron.glitch.me/api/v1/update_schedule
