@@ -19,6 +19,10 @@ app.get("/api/v1/update_schedule", (req, res) => {
   );
 });
 
+app.get("/", (req, res) => {
+  res.status(200).send("goto https://owlv-cron.glitch.me/api/v1/update_schedule");
+});
+
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
